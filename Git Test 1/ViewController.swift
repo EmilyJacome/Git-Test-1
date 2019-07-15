@@ -9,11 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var str = "Hi,I'm eMILY"
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello")
-        print(str)
+        for number  in 1 ... 100{
+            print(number)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
